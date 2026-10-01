@@ -8,6 +8,7 @@ All notable changes to this project are documented here.
 
 ### Fixed
 
+- `features` raises `tier1-clarity` only as a verb ("the app features a dashboard"). The plural noun ("three new features", a "Features" heading, "the features we shipped") is ordinary product writing: in the corpus it accounts for 42 of the word's 48 uses, and every one of them was flagged (#351).
 - Fix empty-result stats and non-string input handling (#234).
 - Cyrillic and Greek prose no longer reads as a homoglyph bypass. Script dominance is decided per sentence, and only mixed-script or fully substituted words surrounded by non-Russian text are swapped; limits are documented in `detector/patterns.js` (#352).
 - "Narrow the false-concession rule to require a vague close in the following clause, widen the subject past one word, and drop the bare despite-challenges opener" (#211).

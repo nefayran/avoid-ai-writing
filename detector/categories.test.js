@@ -77,7 +77,6 @@ const LEGACY_UNCOVERED_TYPES = [
   'significance-inflation',
   'sycophantic',
   'template-phrase',
-  'tier1-clarity',
   'vague-attribution',
 ];
 
